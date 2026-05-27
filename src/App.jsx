@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-const FONTS_LINK = "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Sans+3:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap";
+const FONTS_LINK = "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Source+Sans+3:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap";
 
 // --- DATA ---
 const RICE_DATA = [
@@ -183,9 +183,9 @@ function StatCard({ value, label, sub, delay }) {
         textAlign: "center",
       }}>
         <div style={{
-          fontFamily: "'Playfair Display', serif",
+          fontFamily: "'Plus Jakarta Sans', sans-serif",
           fontSize: "2.5rem",
-          fontWeight: 900,
+          fontWeight: 800,
           color: "#f5f0e8",
           lineHeight: 1,
         }}>
@@ -327,9 +327,9 @@ export default function LinkedInCaseStudy() {
 
         <FadeIn delay={0.15}>
           <h1 style={{
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Plus Jakarta Sans', sans-serif",
             fontSize: "clamp(2.5rem, 6vw, 4.5rem)",
-            fontWeight: 900,
+            fontWeight: 800,
             lineHeight: 1.05,
             marginBottom: "1.5rem",
             maxWidth: "750px",
@@ -412,7 +412,7 @@ export default function LinkedInCaseStudy() {
         <FadeIn>
           <SectionLabel>Approche méthodologique</SectionLabel>
           <h2 style={{
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Plus Jakarta Sans', sans-serif",
             fontSize: "2rem",
             fontWeight: 700,
             marginBottom: "1.5rem",
@@ -486,7 +486,7 @@ export default function LinkedInCaseStudy() {
         <FadeIn>
           <SectionLabel>Phase 01 · Discover</SectionLabel>
           <h2 style={{
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Plus Jakarta Sans', sans-serif",
             fontSize: "2.2rem",
             fontWeight: 700,
             marginBottom: "0.5rem",
@@ -521,7 +521,7 @@ export default function LinkedInCaseStudy() {
         {/* Pain Points */}
         <FadeIn>
           <h3 style={{
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Plus Jakarta Sans', sans-serif",
             fontSize: "1.5rem",
             fontWeight: 700,
             marginBottom: "2rem",
@@ -577,7 +577,7 @@ export default function LinkedInCaseStudy() {
         <FadeIn>
           <SectionLabel>Phase 02 · Define</SectionLabel>
           <h2 style={{
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Plus Jakarta Sans', sans-serif",
             fontSize: "2.2rem",
             fontWeight: 700,
             marginBottom: "1.5rem",
@@ -604,7 +604,7 @@ export default function LinkedInCaseStudy() {
               Problem Statement
             </div>
             <p style={{
-              fontFamily: "'Playfair Display', serif",
+              fontFamily: "'Plus Jakarta Sans', sans-serif",
               fontSize: "1.3rem",
               fontStyle: "italic",
               lineHeight: 1.6,
@@ -622,7 +622,7 @@ export default function LinkedInCaseStudy() {
         {/* Why this problem */}
         <FadeIn delay={0.15}>
           <h3 style={{
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Plus Jakarta Sans', sans-serif",
             fontSize: "1.3rem",
             fontWeight: 700,
             marginBottom: "1rem",
@@ -665,7 +665,7 @@ export default function LinkedInCaseStudy() {
         {/* JTBD */}
         <FadeIn delay={0.2}>
           <h3 style={{
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Plus Jakarta Sans', sans-serif",
             fontSize: "1.3rem",
             fontWeight: 700,
             marginBottom: "0.5rem",
@@ -732,7 +732,7 @@ export default function LinkedInCaseStudy() {
         <FadeIn>
           <SectionLabel>Phase 03 · Develop</SectionLabel>
           <h2 style={{
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Plus Jakarta Sans', sans-serif",
             fontSize: "2.2rem",
             fontWeight: 700,
             marginBottom: "0.5rem",
@@ -825,7 +825,7 @@ export default function LinkedInCaseStudy() {
                 {feat.number}
               </div>
               <h3 style={{
-                fontFamily: "'Playfair Display', serif",
+                fontFamily: "'Plus Jakarta Sans', sans-serif",
                 fontSize: "1.5rem",
                 fontWeight: 700,
                 marginBottom: "0.25rem",
@@ -937,7 +937,7 @@ export default function LinkedInCaseStudy() {
         <FadeIn>
           <SectionLabel>Phase 04 · Deliver</SectionLabel>
           <h2 style={{
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Plus Jakarta Sans', sans-serif",
             fontSize: "2.2rem",
             fontWeight: 700,
             marginBottom: "1.5rem",
@@ -985,9 +985,9 @@ export default function LinkedInCaseStudy() {
               ].map((r, i) => (
                 <div key={i} style={{ textAlign: "center" }}>
                   <div style={{
-                    fontFamily: "'Playfair Display', serif",
+                    fontFamily: "'Plus Jakarta Sans', sans-serif",
                     fontSize: "1.5rem",
-                    fontWeight: 900,
+                    fontWeight: 800,
                     color: "#C3A6FF",
                   }}>{r.letter}</div>
                   <div style={{
@@ -1011,7 +1011,7 @@ export default function LinkedInCaseStudy() {
         {/* RICE Scores */}
         <FadeIn delay={0.15}>
           <h3 style={{
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Plus Jakarta Sans', sans-serif",
             fontSize: "1.3rem",
             fontWeight: 700,
             marginBottom: "1.5rem",
@@ -1098,7 +1098,7 @@ export default function LinkedInCaseStudy() {
               NORTH STAR METRIC
             </div>
             <div style={{
-              fontFamily: "'Playfair Display', serif",
+              fontFamily: "'Plus Jakarta Sans', sans-serif",
               fontSize: "1.6rem",
               fontWeight: 700,
               color: "#f5f0e8",
@@ -1131,9 +1131,9 @@ export default function LinkedInCaseStudy() {
               ].map((m, i) => (
                 <div key={i} style={{ textAlign: "center" }}>
                   <div style={{
-                    fontFamily: "'Playfair Display', serif",
+                    fontFamily: "'Plus Jakarta Sans', sans-serif",
                     fontSize: "1.8rem",
-                    fontWeight: 900,
+                    fontWeight: 800,
                     color: m.color,
                   }}>{m.value}</div>
                   <div style={{
@@ -1151,7 +1151,7 @@ export default function LinkedInCaseStudy() {
         {/* Roadmap */}
         <FadeIn delay={0.3}>
           <h3 style={{
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Plus Jakarta Sans', sans-serif",
             fontSize: "1.3rem",
             fontWeight: 700,
             marginBottom: "1.5rem",
@@ -1281,7 +1281,7 @@ export default function LinkedInCaseStudy() {
         <FadeIn>
           <SectionLabel>Transparence méthodologique</SectionLabel>
           <h2 style={{
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Plus Jakarta Sans', sans-serif",
             fontSize: "2.2rem",
             fontWeight: 700,
             marginBottom: "1.5rem",
@@ -1463,7 +1463,7 @@ export default function LinkedInCaseStudy() {
       }}>
         <FadeIn>
           <div style={{
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Plus Jakarta Sans', sans-serif",
             fontSize: "1.5rem",
             fontWeight: 700,
             marginBottom: "1rem",
